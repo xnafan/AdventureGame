@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdventureGameChallenge", "A
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MonoGameAdventureGameForDesktop", "MonoGameAdventureGameForDesktop\MonoGameAdventureGameForDesktop.csproj", "{26EF99B8-F8FD-4ED6-B7F5-DE455460DC67}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsAdventureGame", "WinFormsAdventureGame\WinFormsAdventureGame.csproj", "{D2BBFACF-3251-4D2A-BFA5-4B06AC48AF51}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsAdventureGame", "WinFormsAdventureGame\WinFormsAdventureGame.csproj", "{D2BBFACF-3251-4D2A-BFA5-4B06AC48AF51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventureGameWebApplication", "AdventureGameWebApplication\AdventureGameWebApplication.csproj", "{87728D6B-C17F-4103-B7C3-63A5BBA56101}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{D2BBFACF-3251-4D2A-BFA5-4B06AC48AF51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2BBFACF-3251-4D2A-BFA5-4B06AC48AF51}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2BBFACF-3251-4D2A-BFA5-4B06AC48AF51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87728D6B-C17F-4103-B7C3-63A5BBA56101}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87728D6B-C17F-4103-B7C3-63A5BBA56101}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87728D6B-C17F-4103-B7C3-63A5BBA56101}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87728D6B-C17F-4103-B7C3-63A5BBA56101}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

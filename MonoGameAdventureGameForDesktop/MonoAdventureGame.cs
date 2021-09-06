@@ -59,7 +59,7 @@ namespace MonoGameAdventureGameForDesktop
                 gameController.PlayRound(); 
             }
         }
-
+        
         private void NewGameButton_Clicked(object sender, System.EventArgs e)
         {
             StartNewGame();
