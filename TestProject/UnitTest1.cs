@@ -67,7 +67,7 @@ namespace TestProject
         public void TestLevelCalculationFromXP()
         {
             //Arrange
-            PlayerCharacter character = new PlayerCharacter("John the dying", CharacterType.Thief, null);
+            PlayerCharacter character = new PlayerCharacter("John the leveler", CharacterType.Thief, null);
 
             //Act
             character.ExperiencePoints = 1;
@@ -105,7 +105,7 @@ namespace TestProject
             int damage = character.Attack();
 
             //Assert
-            Assert.AreEqual(1, damage, "The default hitpoints was not used for construction");
+            Assert.AreEqual(1, damage, "The default damage was not used for an attack without a weapon");
         }
 
         [Test]
